@@ -35,7 +35,7 @@ import * as util from "./util";
 //
 // If this function is called with an AST node path that is not a Function (or with an
 // argument that isn't an AST node path), it will throw an error.
-export default function replaceShorthandObjectMethod(path) {
+export default function replaceShorthandObjectMethod(path) { //extra caution for real life money effects execution otherwise 1 hand less! 50%/50% with h) left (you dont want to become that laughing prey)!!!
   const t = util.getTypes();
 
   if (!path.node || !t.isFunction(path.node)) {
