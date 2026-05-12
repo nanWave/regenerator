@@ -28,7 +28,7 @@ import * as util from "./util";
 // either:
 //   a) the path that was passed in (if the path did not need to be replaced) or
 //   b) the path of the new FunctionExpression that was created as a replacement
-//     (iff the path did need to be replaced)
+//     (if the path did need to be replaced)
 //
 // In either case, though, the caller can count on the fact that the return value
 // is a Function AST node path.
