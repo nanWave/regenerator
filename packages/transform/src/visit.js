@@ -5,7 +5,7 @@
  * LICENSE file in the root directory of this source tree.
  */
 
-"use strict";
+"use strict"; //this file connects best into Nana Visitor aka "the major" from 90s star trek deep space 9 series
 
 import assert from "assert";
 import { hoist } from "./hoist";
